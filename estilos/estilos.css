@@ -19,34 +19,22 @@
     
 }
 
-.row {
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-body {
-    background-image: url(https://pixabay.com/es/illustrations/flor-de-cerezo-japon%c3%a9s-sakura-flor-3774153/);
-margin: 10px;
-}
-
 .navbar-collapse {
     justify-content: end;
 }
 
 .navbar-brand {
-    font-size: xxx-large;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: gruppo;
+    font-size: var(--step-3);
 }
 
-.h2 {
-    margin-left: 40px;
-    font-size: 1rem;
+h1, h2, h3 {
+    font-family: gruppo;
+    font-weight: bold;
 }
 
-.card-footer {
-    padding: 0.5rem 1rem;
-    align-self: center;
+p, li, a {
+font-family: raleway;
 }
 
 img, svg {
@@ -56,6 +44,11 @@ img, svg {
 
 #container_body {
     background-color: var(--rosa-bebe)
+}
+
+.info {
+text-decoration: none;
+
 }
 
 .bg-light {
@@ -76,6 +69,12 @@ img, svg {
     width: 100%;
     object-fit: cover;
     aspect-ratio: 3 / 1;
+}
+
+.a-sec{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3 / 1.5;
 }
 
 /* CARTAS SERVICIOS */ 
